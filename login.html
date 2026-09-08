@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #container {
+            margin: 60px auto ;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            height: 650px;
+            border-radius: 20px;
+        }
+        #logo {
+            background-color: rgb(31, 116, 186);
+            width: 49%;
+            border-radius: 20px;
+
+        }
+        img {
+            width: 400px;
+            margin-left: 140px ;
+            margin-top: 180px;
+        }
+        #login-detail {
+            margin: 80px auto;
+        }
+        p {
+            color: rgb(177, 175, 175);
+            margin-bottom: 60px;
+        }
+        #mobile {
+            font-size: x-large;
+            margin-bottom: 40px;
+        }
+        #password-login {
+            font-size:x-large;
+            margin-bottom: 100px;
+        }
+        #button {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        button {
+            border-radius: 20px;
+            width: 130px;
+            height: 50px;
+            background-color: rgb(31, 116, 185);
+            font-size: large;
+            font-weight: 200;
+        }
+        input {
+            height: 40px;
+            width: 280px;
+            border-radius: 10px;
+            font-size: large;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="logo"><img src="./Images/flipkart-logo 2.png" alt="flipkart-logo"></div>
+        <div id="login-detail">
+            <div id="heading"><h1>Login</h1>
+            <p>Get access to the orders. Wishlist & Recommendations</p></div>
+               <div id="mobile"><label for="email">Enter Email/Mobile Number : </label>
+                <input name="email" type="email, number" placeholder="+919233423324"></div>
+                <div id="password-login"><label for="password">Password : </label>
+                <input type="password" name="password" placeholder="..................................."></div>
+                
+            <div id="button"><button>Login</button>
+            <button>Sign up</button></div>
+        </div>
+    </div>
+</body>
+</html>
